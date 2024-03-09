@@ -9,7 +9,20 @@ body{
     font-size: 2.5rem;
     font-weight: 800;
     margin-bottom: 0px;
+
 }
+
+.center-title , .center-description{
+    text-align: center
+    
+}
+
+.center-description{
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+
 
 .text-light-gray{
     color: rgba(19, 19, 24, 0.7);
@@ -19,6 +32,14 @@ body{
 .text-semi-light-gray{
     color: rgb(90, 90, 93);
     line-height: 26px;
+}
+
+.destination-img-text{
+    color: white;
+    font-size:1.75rem;
+    font-weight: 800;
+    border-radius: 16px;
+
 }
 .primary-color{
     color: rgb(255, 84, 0);
@@ -151,7 +172,7 @@ body{
 }
 
 /*main style */
-main{
+main section{
     max-width: 1170px;
     margin: 100px auto;
 }
@@ -161,6 +182,79 @@ main{
     gap: 100px;
     justify-content: space-between;
 }
+
+
+/* sectionB styles */
+
+.row{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.Maldives,.Indonesia{
+    padding: 130px 230px;
+    
+}
+
+.Maldives{
+    background-image: url("../Images/Rectangle 5.png");
+    background-repeat: no-repeat;
+
+
+}
+.Indonesia{
+    background-image: url("../Images/Rectangle 8.png");
+    background-repeat: no-repeat;
+
+
+} 
+.Srilanka{
+    background-image: url("../Images/Rectangle 6.png");
+    background-repeat: no-repeat;
+    padding:  125px 130px;
+
+}
+.North-America{
+    background-image: url("../Images/Rectangle 7.png");
+    background-repeat: no-repeat;
+}
+
+.Kashmir{
+    background-image: url("../Images/Rectangle 9.png");
+    background-repeat: no-repeat;
+}
+
+.Bangladesh{
+    background-image: url("../Images/Rectangle 11.png");
+    background-repeat: no-repeat;
+}
+
+.Bandarban{
+    background-image: url("../Images/Rectangle 10.png");
+    background-repeat: no-repeat;
+}
+
+
+
+
+/* .row2{
+                <img src="Images/Rectangle 7.png" alt="">
+                <img src="Images/Rectangle 9.png" alt="">
+ } 
+ 
+ row3{
+    <img src="Images/Rectangle 11.png" alt="">
+                <img src="Images/Rectangle 10.png" alt="">
+ }*/
+
+
+
+/* 
+.row p{
+    background-image: url("../Images/Rectangle 5.png"),("../Images/Rectangle 8.png");
+    /* background-repeat: no-repeat; 
+/* }  */
 
 
 
@@ -201,6 +295,7 @@ main{
         margin-left: -200px;
 
     }
+   
 
     .h, .p, .t, .b, .c{
         display: none;
