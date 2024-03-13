@@ -190,10 +190,19 @@ main section{
     display: flex;
     gap: 24px;
     margin-bottom: 24px;
-}
+    
 
+}
+.row:last-child{
+    margin-bottom: 0px;
+
+}
+.row .Maldives,.Indonesia,.Srilanka,.North-America,.Kashmir,.Bangladesh,.Bandarban{
+    margin: 0px;
+    /*margin-bottom: 24px; */
+}
 .Maldives,.Indonesia{
-    padding: 130px 230px;
+    padding: 130px 225px;
     
 }
 
@@ -218,45 +227,69 @@ main section{
 .North-America{
     background-image: url("../Images/Rectangle 7.png");
     background-repeat: no-repeat;
+    padding: 125px 137px;
 }
 
 .Kashmir{
     background-image: url("../Images/Rectangle 9.png");
     background-repeat: no-repeat;
+    padding: 125px 80px;
 }
 
 .Bangladesh{
     background-image: url("../Images/Rectangle 11.png");
     background-repeat: no-repeat;
+    padding: 130px 155px;
+
 }
 
 .Bandarban{
     background-image: url("../Images/Rectangle 10.png");
     background-repeat: no-repeat;
+    padding: 130px 260px;
+
 }
 
+/* footer styles */
+.footer{
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer-wrapper{
+    text-align: center;
+    padding: 100px 335px;
+}
 
+.footer-logo{
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: -30px;
+}
 
+.footer-logo img{
+    width: 45px;
+    height: 40px;
 
-/* .row2{
-                <img src="Images/Rectangle 7.png" alt="">
-                <img src="Images/Rectangle 9.png" alt="">
- } 
- 
- row3{
-    <img src="Images/Rectangle 11.png" alt="">
-                <img src="Images/Rectangle 10.png" alt="">
- }*/
+}
 
+.footer-description{
+    margin-top: 0px;
+    margin-bottom: -10px;
+    border-bottom:1px solid rgba(255, 255, 255, 0.1);
+}
+.social-icons{
+    padding-bottom: 50px;
+    border-bottom:1px solid rgba(19, 19, 24, 0.1);
+}
+.social-icons i{
+    font-size: 1.5rem;
+    margin-right: 30px;
+}
 
-
-/* 
-.row p{
-    background-image: url("../Images/Rectangle 5.png"),("../Images/Rectangle 8.png");
-    /* background-repeat: no-repeat; 
-/* }  */
-
-
+.rights{
+    font-size: 16px;
+    color: rgb(19, 19, 24);
+    padding-top: 30px;
+}
 
 
 
@@ -328,10 +361,6 @@ main section{
     /* secA */
     .secA{
         flex-direction: column;
-        
-
-        /* justify-content: center;
-        align-items: center; */
     }
 
     .secA-column img{
@@ -340,7 +369,6 @@ main section{
 
 
     
-
-    
+ 
 }
 
