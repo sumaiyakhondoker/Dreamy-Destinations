@@ -113,10 +113,10 @@ body{
     font-weight: 400;
 }
 
-/* ber */
-.fa-bars{
-    
-}
+/* bar */
+.bars{
+    display: none;
+}                                                                                                                                                                                                                                                                                                                        
 
 /*main style */
 main section{
@@ -307,7 +307,11 @@ main section{
 
 /* phone responsive */
 @media screen and (max-width:600px) {
-/*website name related  */
+/* website name related  */
+   
+.header-wrapper{
+    margin: 10px;
+}
     .web-name{
         gap: 10px;
         align-items: center;
@@ -317,24 +321,25 @@ main section{
         height: 33px;
     
     }
+ 
 
     .web-title{
-        width: 280px;
+        /* max-width: 280px; */
         font-size: 1.5rem;
-        margin-bottom: 15px;
+        /* margin-bottom: 15px; */
     }
-
-
-    .nav .fa-solid{
+    .bars{
         display: block;
-        margin-left: -200px;
-
+        margin-left: 60px;
     }
-   
 
-    .h, .p, .t, .b, .c{
+    .nav-pages{
         display: none;
     }
+
+   
+
+  
 /* banner */
 
     .banner{
