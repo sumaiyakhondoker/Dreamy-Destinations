@@ -130,7 +130,7 @@ main section{
     margin-top: 0px;
 }
 .banner-wrapper{
-    margin: 10px auto ; 
+    margin: 10px auto 0px ; 
     color: white;
     text-align: center;
     background: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8),rgba(19, 19, 24, 0) 100%);
@@ -184,6 +184,26 @@ main section{
     gap: 100px;
     justify-content: space-between;
 }
+
+.secA-para1{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.secA-list li{
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+.secA-list li:last-child{
+    margin-bottom: 0px;
+}
+
+.secA-para2{
+    margin-top: 24px;
+    margin-bottom: 30px;
+}
+
 
 
 /* sectionB styles */
@@ -307,8 +327,8 @@ main section{
 
 /* phone responsive */
 @media screen and (max-width:600px) {
-/* website name related  */
-   
+
+/* header  */  
 .header-wrapper{
     margin: 10px;
 }
@@ -338,12 +358,15 @@ main section{
     }
 
    
-
-  
+/* main */
+main section{
+    margin: 24px auto;
+}
 /* banner */
 
-    .banner{
-        padding: 30px;
+    .banner-wrapper{
+        width: 100%;
+        margin-bottom: 0px;
     
     } 
 
@@ -363,16 +386,24 @@ main section{
 
     .finding-place{
         flex-direction: column;
+        margin: 0px 24px;
     }
 
     /* secA */
     .secA{
         flex-direction: column;
+        gap: 24px;
+    }
+    .secA-column{
+        padding: 10px;
     }
 
+   
     .secA-column img{
         width: 100%;
     }
+
+
 
 
     
