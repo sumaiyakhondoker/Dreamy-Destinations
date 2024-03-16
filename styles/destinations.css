@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Merriweather:wght@400;700;900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@500;600;700;800;900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 /* common shared styles */
+
 body{
     font-family: "Mulish", sans-serif;
 }
+
+
 
 .section-title{
     color: rgb(19, 19, 24);
@@ -136,9 +139,9 @@ main section{
     background: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8),rgba(19, 19, 24, 0) 100%);
     background-image: url("../Images/Group 13 (1) (1).png");
     background-repeat: no-repeat;
+    /* width: 100%; */
     padding-top: 35px;
     padding-bottom: 100px;
-
     border-radius: 16px;
 
 }
@@ -170,7 +173,7 @@ main section{
 .finding-place input{
     border-radius: 8px;
     border: 0;
-    padding: 16px 10px;
+    padding: 18px 10px;
     
 }
 
@@ -183,6 +186,9 @@ main section{
     display: flex;
     gap: 100px;
     justify-content: space-between;
+}
+.tours{
+    margin-top: 0px;
 }
 
 .secA-para1{
@@ -221,7 +227,7 @@ main section{
 }
 .row .Maldives,.Indonesia,.Srilanka,.North-America,.Kashmir,.Bangladesh,.Bandarban{
     margin: 0px;
-    /*margin-bottom: 24px; */
+    
 }
 .Maldives,.Indonesia{
     padding: 130px 225px;
@@ -295,11 +301,13 @@ main section{
 
 .footer-description{
     margin-top: 0px;
-    margin-bottom: -10px;
+    /* margin-bottom: -10px; */
+    margin-bottom: 0px;
     border-bottom:1px solid rgba(255, 255, 255, 0.1);
 }
 .social-icons{
-    padding-bottom: 50px;
+    padding-top: 15px;
+    padding-bottom: 40px;
     border-bottom:1px solid rgba(19, 19, 24, 0.1);
 }
 .social-icons i{
@@ -362,11 +370,22 @@ main section{
 main section{
     margin: 24px auto;
 }
+
+.section-title{
+    font-size: 1.5rem;
+}
 /* banner */
+.banner{
+    margin-bottom: -60px;
+}
 
     .banner-wrapper{
-        width: 100%;
-        margin-bottom: 0px;
+         /* width: 100%;  */
+        /* margin-bottom: 0px; */
+        margin-left: 10px;
+        margin-right: 10px;
+
+        
     
     } 
 
@@ -380,8 +399,7 @@ main section{
     .banner-description{
         font-size: 0.8rem;
         line-height: 21px;
-        margin-top: 8px;
-        margin-bottom: 30px;
+        margin: 8px 15px 30px;
     }
 
     .finding-place{
@@ -404,9 +422,45 @@ main section{
     }
 
 
+/* secB */
+.center-description{
+    margin: 16px 10px;
+    padding: 0px 10px;
+}
+ .row{
+    flex-direction: column;
+    gap: 16px; 
+    margin-bottom: 16px; 
+    
 
+}  
+.row .Maldives,.Indonesia,.Srilanka,.North-America,.Kashmir,.Bangladesh,.Bandarban{
+    padding: 75px 120px;
+    margin: 0px 10px;
+}
+.North-America{
+    padding: 75px 118px;
+}
+.Kashmir{
+    padding-left: 28px;
+}
+.destination-img-text{
+    text-align: center;
+    font-size:1.25rem;
+    font-weight: 700;
+
+}
 
     
  
-}
+ 
 
+/* footer */
+ .footer-wrapper{
+    padding: 30px;
+ }
+
+ .social-icons{
+    padding: o;
+ }
+}
